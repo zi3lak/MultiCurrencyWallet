@@ -207,7 +207,7 @@
     "jdenticon": "^2.2.0",
     "json-stringify-safe": "^5.0.1",
     "level-js": "github:timkuijsten/level.js#idbunwrapper",
-    "libp2p": "^0.29.2",
+    "libp2p": "^0.35.8",
     "libp2p-bootstrap": "^0.12.1",
     "libp2p-gossipsub": "^0.6.3",
     "libp2p-mdns": "^0.15.0",
