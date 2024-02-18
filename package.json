@@ -67,7 +67,9 @@
     "rename-assets-manifest-link": "replace 'assets/manifest.json' 'assets/android-manifest.json' ./build-chrome-extension/application/index.html",
     "release": "git commit -am v%npm_package_version% && git tag v%npm_package_version% && git push && git push --tags",
     "bot": "babel-node --config-file=./babel.bot.config.js --max-old-space-size=2048 ./src/bot",
-    "bot:debug": "cross-env DEBUG=swap.core* babel-node --config-file=./babel.bot.config.js --max-old-space-size=2048 ./src/bot"
+    "bot:debug": "cross-env DEBUG=swap.core* babel-node --config-file=./babel.bot.config.js --max-old-space-size=2048 ./src/bot",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -256,6 +258,8 @@
     "url-parse": "^1.4.7",
     "valuelink": "^1.6.2",
     "web3": "^1.2.11",
-    "web3modal": "^1.9.1"
-  }
+    "web3modal": "^1.9.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
