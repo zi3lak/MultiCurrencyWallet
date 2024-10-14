@@ -196,7 +196,7 @@
     "debug": "^4.1.0",
     "delay": "^4.3.0",
     "dirty-chai": "^2.0.1",
-    "ethereum-input-data-decoder": "^0.3.1",
+    "ethereum-input-data-decoder": "^0.4.0",
     "firebase": "^7.23.0",
     "ghost-bitcore-lib": "git+https://github.com/ghost-coin/ghost-bitcore-lib.git",
     "graphql": "^15.3.0",
@@ -255,7 +255,7 @@
     "typeforce": "^1.18.0",
     "url-parse": "^1.4.7",
     "valuelink": "^1.6.2",
-    "web3": "^1.2.11",
+    "web3": "^4.2.0",
     "web3modal": "^1.9.1"
   }
 }
